@@ -192,12 +192,6 @@ supabase/
 - The ESP32 authenticates via a `system_key` through the `device-ingest` Edge Function — never with user credentials.
 - The ML gateway is gated by an `X_API_TOKEN` secret.
 - Admin access is checked server-side via `is_admin()` / `has_role()` security-definer functions — never via client-side storage.
-- Web Push endpoints are validated server-side before delivery.
-
----
-
-## 📝 License
-
-This project is built and maintained on Lovable. See the Lovable project for details.
+- Web Push endpoints are validated server-side before delivery
 #   s a l m a n - w a t e r - a n g e l  
  
